@@ -1,34 +1,34 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import NavbarUsuario from "../components/Navbar/NavbarUsuario.jsx";
-import NavbarPartner from "../components/Navbar/NavbarPartner";
-import NavbarAdmin from "../components/Navbar/NavbarAdmin";
+import NavbarUsuario from "./components/Navbar/NavbarUsuario";
+import NavbarPartner from "./components/Navbar/NavbarPartner";
+import NavbarAdmin from "./components/Navbar/NavbarAdmin";
 
 // Pages de Usuario
-import PrincipalUsuario from "../pages/usuarios/PrincipalUsuario";
-import ProductosUsuario from "../pages/usuarios/ProductosUsuario";
-import CarritoUsuario from "../pages/usuarios/CarritoUsuario";
-import CanjesUsuario from "../pages/usuarios/CanjesUsuario";
-import PuntosUsuario from "../pages/usuarios/PuntosUsuario";
-import MiCuentaUsuario from "../pages/usuarios/MiCuentaUsuario";
-import HistorialVisitasUsuario from "../pages/usuarios/HistorialVisitasUsuario";
-import PlanesUsuario from "../pages/usuarios/PlanesUsuario";
-import RegistroUsuario from "../pages/usuarios/RegistroUsuario";
-import LoginUsuario from "../pages/usuarios/LoginUsuario";
-import UbicacionesUsuario from "../pages/usuarios/UbicacionesUsuario";
+import PrincipalUsuario from "./pages/usuarios/PrincipalUsuario";
+import ProductosUsuario from "./pages/usuarios/ProductosUsuario";
+import CarritoUsuario from "./pages/usuarios/CarritoUsuario";
+import CanjesUsuario from "./pages/usuarios/CanjesUsuario";
+import PuntosUsuario from "./pages/usuarios/PuntosUsuario";
+import MiCuentaUsuario from "./pages/usuarios/MiCuentaUsuario";
+import HistorialVisitasUsuario from "./pages/usuarios/HistorialVisitasUsuario";
+import PlanesUsuario from "./pages/usuarios/PlanesUsuario";
+import RegistroUsuario from "./pages/usuarios/RegistroUsuario";
+import LoginUsuario from "./pages/usuarios/LoginUsuario";
+import UbicacionesUsuario from "./pages/usuarios/UbicacionesUsuario";
 
 // Pages de Partner
-import LoginPartner from "../pages/partners/LoginPartner";
-import PanelPartner from "../pages/partners/PanelPartner";
-import ProductosPartner from "../pages/partners/ProductosPartner";
+import LoginPartner from "./pages/partners/LoginPartner";
+import PanelPartner from "./pages/partners/PanelPartner";
+import ProductosPartner from "./pages/partners/ProductosPartner";
 import UsuariosInternosPartner from "../pages/partners/UsuariosInternosPartner";
-import ValidarQRPartner from "../pages/partners/ValidarQRPartner";
-import VisitasPartner from "../pages/partners/VisitasPartner";
-import RegistroPartner from "../pages/partners/RegistroPartner";
+import ValidarQRPartner from "./pages/partners/ValidarQRPartner";
+import VisitasPartner from "./pages/partners/VisitasPartner";
+import RegistroPartner from "./pages/partners/RegistroPartner";
 
 // Pages de Admin
-import LoginAdmin from "../pages/admin/LoginAdmin";
-import PanelAdmin from "../pages/admin/PanelAdmin";
-import SolicitudesAccesoAdmin from "../pages/admin/SolicitudesAccesoAdmin";
+import LoginAdmin from "./pages/admin/LoginAdmin";
+import PanelAdmin from "./pages/admin/PanelAdmin";
+import SolicitudesAccesoAdmin from "./pages/admin/SolicitudesAccesoAdmin";
 
 function App() {
   const tipoUsuario = sessionStorage.getItem('tipoUsuario'); 
