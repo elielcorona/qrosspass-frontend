@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import NavbarUsuario from "./components/Navbar/NavbarUsuario";
-import NavbarPartner from "./components/Navbar/NavbarPartner";
-import NavbarAdmin from "./components/Navbar/NavbarAdmin";
+import NavbarUsuario from "../components/Navbar/NavbarUsuario";
+import NavbarPartner from "../components/Navbar/NavbarPartner";
+import NavbarAdmin from "../components/Navbar/NavbarAdmin";
 
 // Pages de Usuario
 import PrincipalUsuario from "./pages/usuarios/PrincipalUsuario";
