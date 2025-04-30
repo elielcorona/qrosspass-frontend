@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import NavbarUsuario from "./components/navbar/NavbarUsuario";
+import NavbarUsuario from "./components/Navbar/NavbarUsuario";
 import NavbarPartner from "./components/navbar/NavbarPartner";
 import NavbarAdmin from "./components/navbar/NavbarAdmin";
 
